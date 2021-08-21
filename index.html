@@ -13,7 +13,85 @@
 </head>
 
 <body>
-    <h1>Hello stevekaku</h1>
+    <main>
+        <section class="container-fluid">
+            <div class=" d-flex ">
+                <div class=" col-lg-5  mt-5 px-5">
+                    <img class="img-fluid"src="images/mac.png" alt="">
+                </div>
+              
+                    <div class=" container  mt-5 col-lg-7 px-5">
+                        <h1 class="">Customize your Blue 24-inch<br>iMac with Apple M1 chip.</h1>
+                        <p class="">
+                            Apple M1 chip with 8-core CPU with 4 efficent cores, 7-core gpu AND 16-CORE Neural Engine 8gmb unifind memory 256 ssd stroage Two thunderbolt usp4 porsts Magic Mouse magic keyboard us English .
+                        </p>
+                        <br>
+                    <div class="">
+                        <h4 class="">Memory</h4>
+                         <button id="small-memory" class="  btn btn-primary">8GB unified Memory</button>
+                         
+                         <button id="big-memory" class="rounded btn btn-primary">16GB unified Memory</button>
+                         <!-- stroage section button -->
+                         <br>
+                         <br>
+                         <br>
+                          <h4 class="">Stroage</h4>
+                          <button id="low-stroage" class="rounded btn btn-primary">256 GB SSD stroage</button>
+                          <button id="big-stroage" class="rounded btn btn-primary">512 GB SSD stroage</button>
+                         <button id="extra-stroage"class="rounded btn btn-primary">1TB SSD stroage</button>
+                         <br>
+                         <br>
+                         <br>
+                         <h4 class="">Choose your delivery option</h4>
+                         <button id="free" class="rounded btn btn-primary">Friday Aug 29 Free Delivery</button>
+                         <button id="express" class="rounded btn btn-primary">Friday Aug 29 Free Delivery Charge 20$</button>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="">
+                       <!-- total calculation    -->
+                       <div class=" container d-flex justify-content-around">
+                           <h4 class="container">Best Price</h4>
+                           <h4 class="container">$<span class=" " id="best-price">1299</span></h4>
+                       </div>
+                       <hr>
+                        <div class="container d-flex justify-content-around">
+                            <h4 class="container">Extra Memory Cost</h4>
+                            <h4 class="container">$<span class="font-size-500 " id="memory-cost">0</span></h4>
+                        </div>
+                        <hr>
+                         <div class="container d-flex justify-content-around">
+                             <h4 class="container">Extra Stroage Cost</h4><br>
+                             <h4 class="container">$<span class=" " id="stroage-cost">0</span></h4>
+                         </div>
+                         <hr>
+                          <div class=" container  d-flex justify-content-around">
+                              <h4 class="container">Delivery Charage</h4>
+                              <h4 class="container">$<span class=" " id="charge">0</span></h4>
+                          </div>
+                          <hr style="border:2px solid black ">
+                          <div class="container d-flex justify-content-around">
+                              <h4 class="container">Total Price</h4>
+                              <h4 class="container">$<span id="total-price">1299</span></h4>
+                          </div>
+                          <hr>
+                          <br>
+                          
+                          <h6>Add Pomo Code</h6>
+                          <input type="text" value="" id ="pomo-code">
+                           <button class=" btn btn-danger rounded">Apply</button>
+                    </div>
+                    <br>
+                </div>
+               
+                
+            </div>
+            <hr>
+            <h1 class="text-center">Total:$ <span id=total>1299</span></h1>
+
+        </section>
+    </main>
     <!-- Bootstrap script link add -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
